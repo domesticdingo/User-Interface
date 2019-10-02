@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation {
+	width: 100%;
+	box-sizing: border-box;
+	color:grey;
+	word-spacing: 200px
+}
+
+h1{
+	font-size: 60px;
+}
+
+header{
+	height: 550px;
+	width: 100%;
+	text-align: center;
+	padding-top: 200px;
+	margin-left: -400px;
+}
+
+.headerImage{
+	position: relative;
+	left: 300px;
+	bottom: 300px;
+}
+
+button{
+	border: 2px solid grey;
+	border-radius: 3px;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: white;
+	padding: 2px 30px;
+	position: relative;
+	left: 190px;
+	bottom: 300px;
+}
+
+.body{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: 30px;
+}
+
+.sec1 {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+}
+
+.column1 {
+	display:inline-block;
+	width: 48%;
+}
+
+.column2 {
+	display:inline-block;
+	width: 48%;
+}
+
+.centerImage{	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sec2 {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+}
+
+.column3 {
+	display:inline-block;
+	width: 32%;
+}
+
+.column4 {
+	display:inline-block;
+	width: 32%;
+}
+
+.column5 {
+	display:inline-block;
+	width: 32%;
+}
+
+.contact{
+	padding: 50px;
+}
+
+.foot {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
